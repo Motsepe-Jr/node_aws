@@ -1,0 +1,5 @@
+npm init yes
+npm install express
+npm install mongogb
+npm install nodemon
+. code
