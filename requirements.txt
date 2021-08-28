@@ -3,3 +3,16 @@ npm install express
 npm install mongogb
 npm install nodemon
 . code
+npx gitignore node # remove the nodemudules
+
+got to aws
+and open the CodePipeline services (This will help us to make probagate our changes in production)
+
+#Integrade github 
+echo "# node_aws" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Motsepe-Jr/node_aws.git
+git push -u origin main
